@@ -1,5 +1,11 @@
 # voucher
 
+It is a simple example of how to create a voucher system.
+
+There is a customer list and a special offer list. The voucher is the relationship between then.
+
+A customer can have more than one voucher and can have the same voucher many times, but he can't have the same voucher at the same time. He needs to use one before receive same another.
+
 ## Database
 MySQL
 You can find the SQL code on "database.sql" file located on "cmd" folder;
