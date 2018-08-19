@@ -1,0 +1,46 @@
+
+body {font-family:Arial; font-size:12px; color:#343434; background:#e2e1e0;}
+.box {background:#FFF; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); padding:20px; margin:8px 0; font-size:1em; position:relative; max-width:1000px; margin:20px auto;}
+
+.tit {font-size:1.4em; padding:8px 0; margin:0 0 20px 0; border-bottom:1px solid #DDD;}
+.pnl {width:25%; float:left; text-align:center;}
+.pnl .val {text-align:inherit; font-size:1.8em;}
+.pnl .lbl {text-align:inherit; font-size:1em;}
+
+.bar {margin:0 0 20px 0;}
+.bar .btn {height:28px; line-height:28px; float:left; background:#1E88E5; color:#FFF; text-align:center; width:160px; margin:0 20px 0 0; cursor:pointer; font-size:1em; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+.bar .search-box {height:28px; line-height:28px; width:300px; float:left;}
+.bar .search-box input {height:28px; line-height:28px; width:220px; border:1px solid #DDD; padding:0; margin:0; float:left;}
+.bar .search-box .search-btn {background:#757575; color:#FFF; height:28px; line-height:28px; width:80px; float:left; text-align:center; cursor:pointer; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+
+table {font-size:1em !important;}
+.grid {border-collapse:collapse; font-size:1em !important;}
+.grid td {border-bottom:1px solid #DDD; border-right:1px solid #DDD; padding:2px 4px; font-size:1em;}
+.grid tr td:first-child {border-left:1px solid #DDD;}
+.grid thead tr:first-child td {border-top:1px solid #DDD;}
+.grid thead td {text-align:center;}
+.grid tbody td {text-align:left;}
+.grid .btn {height:24px; line-height:24px; float:left; background:#1E88E5; color:#FFF; text-align:center; padding:0 8px; margin:0 4px 0 0; cursor:pointer; font-size:1em; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); border-radius:2px;}
+.grid .btn:last-child {margin-right:0;}
+.grid .btn-del {background:#e74c3c;}
+.grid .btn-edit {background:#e67e22;}
+.grid .btn-manage {background:#2ecc71;}
+
+
+.panel_bg {position:fixed; top:0; right:0; bottom:0; left:0; background:#FFF; opacity:.85; z-index:999997;}
+.panel {position:fixed; top:10vh; width:300px; left:50%; margin:0 0 0 -150px; background:#FFF; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); z-index:999998;}
+.panel .tit {height:34px; line-height:34px; font-size:1.8em; text-align:center; background:#DDD;}
+.panel .lin {height:46px; position:relative; margin:0 20px 10px;}
+.panel .lin label {height:18px; line-height:18px; width:100%; position:absolute; top:0; left:0;}
+.panel .lin input {height:28px; line-height:28px; width:100%; border:1px solid #DDD; position:absolute; top:18px; left:0;}
+.panel .lin select {height:28px; line-height:28px; width:100%; border:1px solid #DDD; position:absolute; top:18px; left:0;}
+.panel .buttons {margin:20px 20px 20px;}
+.panel .buttons .btn {height:28px; line-height:28px; float:right; background:#1E88E5; color:#FFF; text-align:center; padding:0 16px; margin:0 0 0 20px; cursor:pointer; font-size:1em; box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+
+.error-panel {position:fixed; right:20px; bottom:10vh; width:200px; box-shadow:0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); color:#9f2723; border:1px solid #dd6864; background:#e27c79; padding:20px; border-radius:4px; z-index:999999;}
+.error-panel .msg {}
+.error-panel .close {text-shadow:0 1px 0 rgba(255, 255, 255, 0.7); font-weight:bold; font-size:21px; cursor:pointer; position:relative; float:right; line-height:1px;}
+
+.message-panel {position:fixed; right:20px; bottom:10vh; width:200px; box-shadow:0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); color:#3d8b3d; border:1px solid #80c780; background:#91cf91; padding:20px; border-radius:4px; z-index:999999;}
+.message-panel .msg {}
+.message-panel .close {text-shadow:0 1px 0 rgba(255, 255, 255, 0.7); font-weight:bold; font-size:21px; cursor:pointer; position:relative; float:right; line-height:1px;}
